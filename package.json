@@ -1,0 +1,45 @@
+{
+  "name": "@playerberry/cyberflake",
+  "description": "Cyberflake ID's for PlayerBerry",
+  "private": false,
+  "type": "commonjs",
+  "main": ".src/index.js",
+  "files": [
+    "src"
+  ],
+  "scripts": {
+    "test": "jest --detectOpenHandles --testPathPattern=test/",
+    "test:dev": "jest --watchAll --testPathPattern=test/",
+    "lint": "prettier --check . && eslint src",
+    "format": "prettier --write . && eslint src --fix"
+  },
+  "engines": {
+    "node": ">=16.16.0"
+  },
+  "keywords": [
+    "flake",
+    "playerberry",
+    "playerberry flake",
+    "cyberflake",
+    "snowflake",
+    "snowflake generator",
+    "ID generator"
+  ],
+  "devDependencies": {
+    "@playerberry/eslint-config": "^1.0.0",
+    "jest": "^29.5.0",
+    "prettier": "^2.8.7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/playerberry/flake.git"
+  },
+  "bugs": {
+    "url": "https://github.com/playerberry/flake/issues"
+  },
+  "author": "Yankı Küçük <yankikucuk@playerberry.com> (https://playerberry.com)",
+  "contributors": [
+    "ex.codes <kendinikertenkelebek@me.com>"
+  ],
+  "license": "Apache-2.0"
+}
