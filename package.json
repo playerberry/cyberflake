@@ -1,6 +1,6 @@
 {
   "name": "@playerberry/cyberflake",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Cyberflake ID's for PlayerBerry",
   "private": false,
   "main": "./src/index.js",
