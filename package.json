@@ -32,10 +32,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/playerberry/flake.git"
+    "url": "https://github.com/playerberry/cyberflake.git"
   },
   "bugs": {
-    "url": "https://github.com/playerberry/flake/issues"
+    "url": "https://github.com/playerberry/cyberflake/issues"
   },
   "author": "Yankı Küçük <yankikucuk@playerberry.com> (https://playerberry.com)",
   "contributors": [
